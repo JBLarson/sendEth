@@ -11,6 +11,6 @@ Simple scripts for using python's web3 library
 3. Add the URL for your infura endpoint to [infuraUrl.py](infuraUrl.py)
 4. Add your private key as an environment variable.
  - >> export privateKey=the-private-key-for-your-wallet
-5. Change the wallet addresses to your own wallets.
+5. Change the wallet addresses in [sendEth.py](sendEth.py) to your own wallets.
 6. Run the script
  - >> python3 sendEth.py
