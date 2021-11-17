@@ -1,5 +1,6 @@
-# web3
-Simple scripts for using python's web3 library
+# sendEth
+
+Simple script to send ether between two wallets using the web3 library
 
 1. Create and activate a virtual environment
  - >> python3 -m venv web3Env
