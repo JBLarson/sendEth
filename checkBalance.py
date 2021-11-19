@@ -4,8 +4,12 @@ import sys
 from web3 import Web3
 from infuraUrl import infuraUrl
 
+try:
+	walletAddress = sys.argv[1]
 
-walletAddress = sys.argv[1]
+except:
+	walletAddress = '0x2C2E5b824EA2BcE625943aF15e1bBD86630B37EF'
+
 
 
 
@@ -22,3 +26,5 @@ checkBalance = fetchETHBalance(walletAddress)
 
 
 print(checkBalance)
+
+
